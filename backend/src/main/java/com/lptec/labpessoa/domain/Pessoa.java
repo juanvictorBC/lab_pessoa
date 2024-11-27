@@ -13,17 +13,17 @@ public class Pessoa {
 	private Long id;
 	
 	private String nome;
-	private String sobreNome;
+	private String sobrenome;
 	private String genero;
 	private String telefone;
 	
 	public Pessoa() {
 	}
 
-	public Pessoa(Long id, String nome, String sobreNome, String genero, String telefone) {
+	public Pessoa(Long id, String nome, String sobrenome, String genero, String telefone) {
 		this.id = id;
 		this.nome = nome;
-		this.sobreNome = sobreNome;
+		this.sobrenome = sobrenome;
 		this.genero = genero;
 		this.telefone = telefone;
 	}
@@ -44,12 +44,12 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public String getSobreNome() {
-		return sobreNome;
+	public String getSobrenome() {
+		return sobrenome;
 	}
 
-	public void setSobreNome(String sobreNome) {
-		this.sobreNome = sobreNome;
+	public void setSobreNome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}
 
 	public String getGenero() {

@@ -12,7 +12,11 @@ import com.lptec.labpessoa.repositories.PessoaRepository;
 @Service
 public class PessoaService {
 
-	private PessoaRepository pessoaRepository;
+	private final PessoaRepository pessoaRepository;
+
+	public PessoaService(PessoaRepository pessoaRepository) {
+		this.pessoaRepository = pessoaRepository;
+	}
 
 	@Autowired
 	public List<Pessoa> listarTodas() {
