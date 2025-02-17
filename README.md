@@ -7,7 +7,7 @@ Um projeto de estudo em Java Spring Boot para gerenciar entidades do tipo Pessoa
 - Java 17
 - Spring Boot
 - JPA/Hibernate
-- Banco de Dados (Defina qual está sendo usado, ex: H2, MySQL, PostgreSQL)
+- Banco de Dados (PostgreSQL)
 - Lombok
 - Maven
 
