@@ -8,7 +8,6 @@ Um projeto de estudo em Java Spring Boot para gerenciar entidades do tipo Pessoa
 - Spring Boot
 - JPA/Hibernate
 - Banco de Dados (PostgreSQL)
-- Lombok
 - Maven
 
 ## Funcionalidades
